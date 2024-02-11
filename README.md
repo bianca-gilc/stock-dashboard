@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Stock Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This React app is designed to provide users with latest stock and cryptocurrency data upon query, visualized in an interactive dashboard. It connects to a REST API (Finnhub) to fetch financial data, and establishes a WebSocket connection for live updates. This is a responsive, dynamic website that features intuitive and interactive UI components.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Search Bar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Allows users to search for stock symbols.
 
-### `npm test`
+### Time-Range Selector
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Enables users to customize the time range of historial data aggregated and displayed.
 
-### `npm run build`
+### Charting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Displayes the selected stock's prices over time using a linear gradient graph from the Recharts library.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Overview Card
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Provides the selected stock's previous closing price and the percentage change of the current price from it, and additionally some essential company details.
 
-### `npm run eject`
+### Live Price Updates
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Features a top banner displaying live prices of selected cryptocurrencies and stocks, updated in real-time through a WebSocket connection to the Finnhub API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dark Mode Toggler
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React.js for a component-based design\
+Javascript's WebSocket API\
+The charting library Recharts\
+Tailwind CSS for component styling and layout flexibility\
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
