@@ -35,7 +35,7 @@ Features a top banner displaying live prices of selected cryptocurrencies and st
 
 The webpage is under light mode by default, users can switch to dark mode through the moon icon.
 ![screenshot1](togglerLight.png)
-![screenshot1](togglerDark.png)
+![screenshot1](togglerDark.png)\
 The resulting webpage style is demonstrated as follows:
 ![screenshot1](mainDarkMode.png)
 
