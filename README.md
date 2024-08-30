@@ -5,6 +5,7 @@
 
 This React app is designed to provide users with latest stock and cryptocurrency data upon query, visualized in an interactive dashboard. It connects to a REST API (Finnhub) to fetch financial data, and establishes a WebSocket connection for live updates. This is a responsive, dynamic website that features intuitive and interactive UI components.
 
+![screenshot1](mainLightMode.png)
 ## Features
 
 ### Search Bar
