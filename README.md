@@ -28,11 +28,11 @@ Provides the selected stock's previous closing price and the percentage change o
 Features a top banner displaying live prices of selected cryptocurrencies and stocks, updated in real-time through a WebSocket connection to the Finnhub API.
 
 ### Dark Mode Toggler
-
+![screenshot1](mainDarkMode.png)
 ## Technologies Used
 
 React.js for a component-based design\
 Javascript's WebSocket API\
 The charting library Recharts\
-Tailwind CSS for component styling and layout flexibility\
+Tailwind CSS for component styling and layout flexibility
 
