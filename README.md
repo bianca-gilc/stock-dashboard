@@ -11,6 +11,7 @@ This React app is designed to provide users with latest stock and cryptocurrency
 ### Search Bar
 
 Allows users to search for stock symbols. The organization name will appear on top of the searchbar upon selection; the charting area (with a filter of 1 Week if not formerly specified) and overview card will be updated simultaneously and correspondently. 
+
 ![screenshot1](searchBar.png)
 
 ### Time-Range Selector
@@ -31,7 +32,14 @@ Provides the selected stock's previous closing price and the percentage change o
 Features a top banner displaying live prices of selected cryptocurrencies and stocks, updated in real-time through a WebSocket connection to the Finnhub API.
 
 ### Dark Mode Toggler
+
+The webpage is under light mode by default, users can switch to dark mode through the moon icon.
+![screenshot1](togglerLight.png)
+![screenshot1](togglerDark.png)
+The resulting webpage style is demonstrated as follows:
 ![screenshot1](mainDarkMode.png)
+
+
 ## Technologies Used
 
 React.js for a component-based design\
