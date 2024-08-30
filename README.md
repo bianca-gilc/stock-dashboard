@@ -9,11 +9,13 @@ This React app is designed to provide users with latest stock and cryptocurrency
 
 ### Search Bar
 
-Allows users to search for stock symbols.
+Allows users to search for stock symbols. The organization name will appear on top of the searchbar upon selection; the charting area (with a filter of 1 Week if not formerly specified) and overview card will be updated simultaneously and correspondently. 
+![screenshot1](searchBar.png)
 
 ### Time-Range Selector
 
 Enables users to customize the time range of historial data aggregated and displayed.
+![screenshot1](rangeSelector.png)
 
 ### Charting
 
